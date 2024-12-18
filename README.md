@@ -1,12 +1,12 @@
 # rustcc
 
-A Tiny C Compiler written in Rust
+## A Tiny C Compiler written in Rust
 
 Based on Writing a C Compiler by Nora Sandler
 
-Usage:
+## Usage:
 
-cargo run rustcc <input_file.c>
+`cargo run rustcc <input_file.c>`
 
 For running each stage separately use the following flags
 options:
@@ -20,5 +20,6 @@ options:
 
 ## References:
 
-[Nora Sandler's Blog](https://norasandler.com/2017/11/29/Write-a-Compiler.html): A blog post that explains parts of the compiler in detail.
-[Lox](https://github.com/Meillaya/Lox): An AST interpreter I built in Rust.
+- [Nora Sandler's Blog](https://norasandler.com/2017/11/29/Write-a-Compiler.html): A blog post that explains parts of the compiler in detail.
+- [Writing a C Compiler](https://github.com/nlsandler/nqcc2): A repository containing the code for the blog post in OCaml.
+- [Lox](https://github.com/Meillaya/Lox): An AST interpreter I built in Rust.
